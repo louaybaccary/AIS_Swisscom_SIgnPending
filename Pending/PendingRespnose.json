@@ -1,0 +1,14 @@
+{
+    "SignResponse": {
+    "@RequestID": "ais.smartco.ch",
+    "@Profile": "http://ais.swisscom.ch/1.1",
+    "Result": {
+    "ResultMajor": "urn:oasis:names:tc:dss:1.0:resultmajor:RequesterError",
+    "ResultMinor": "http://ais.swisscom.ch/1.0/resultminor/UnknownServiceEntity",
+    "ResultMessage": {
+    "@xml.lang": "en",
+    "$": "Unknown Key ID in Element <Name>"
+    }
+    }
+    }
+   }
