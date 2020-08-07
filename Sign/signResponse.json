@@ -1,0 +1,14 @@
+
+{
+"SignResponse": {
+"@RequestID": "ais.smartco.ch",
+"@Profile": "http://ais.swisscom.ch/1.1",
+"Result": {
+"ResultMajor": "urn:oasis:names:tc:dss:1.0:profiles:asynchronousprocessing:resultmajor:Pending"
+ },
+"OptionalOutputs": {
+"async.ResponseID": "9eb72cf0-fd4a-4124-a28a-bd804ff6a7f5"
+ }
+ }
+}
+

@@ -1,0 +1,11 @@
+{ "async.PendingRequest": {
+    "@RequestID": "async.PendingRequest",
+     "@Profile": "http://ais.swisscom.ch/1.1",
+     "OptionalInputs": {
+     "ClaimedIdentity": {
+     "Name": "ais-90days-trial:static"
+     },
+     "async.ResponseID": "9eb72cf0-fd4a-4124-a28a-bd804ff6a7f5"
+     }
+     }
+    }
