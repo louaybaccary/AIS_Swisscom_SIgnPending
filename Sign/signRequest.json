@@ -1,28 +1,22 @@
+{ "SignRequest": {
+"@RequestID": "ais.smartco.ch",
+"@Profile": "http://ais.swisscom.ch/1.1",
+"OptionalInputs": {
+"ClaimedIdentity": {
+"Name": "ais-90days-trial:static"
+},
+"SignatureType": "urn:ietf:rfc:3369",
+"AdditionalProfile": "urn:oasis:names:tc:dss:1.0:profiles:asynchronousprocessing",
+"AddTimestamp": {"@Type": "urn:ietf:rfc:3161"}
+},
+"InputDocuments": {
+"DocumentHash": 
 {
-    "SignRequest": {
-       "@RequestID": "ais.smartco.ch",
-       "@Profile": "http://ais.swisscom.ch/1.1",
-       "OptionalInputs": {
-          "ClaimedIdentity": {
-             "Name": "ais.smartco.ch"
-          },
-          "SignatureType": "urn:ietf:rfc:3369",
-          "AdditionalProfile": "http://ais.swisscom.ch/1.0/profiles/batchprocessing",
-          "AddTimestamp": {
-             "@Type": "urn:ietf:rfc:3161"
-          },
-          "sc.AddRevocationInformation": {
-             "@Type": "BOTH"
-          }
-       },
-       "InputDocuments": {
-          "DocumentHash": {
-             "@ID": "YOUR_DOCID_#1",
-             "dsig.DigestMethod": {
-                "@Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256"
-             },
-             "dsig.DigestValue": "kZJDdKf5Vs7t/pDn+//SvtWy6Zk8pK8hSX/zWfgzIIo="
-          }
-       }
-    }
- }
+"@ID": "doc1",
+ "dsig.DigestMethod": { "@Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256" },
+ "dsig.DigestValue": "kZJDdKf5Vs7t/pDn+//SvtWy6Zk8pK8hSX/zWfgzIIo="
+}
+ 
+}
+}
+}
